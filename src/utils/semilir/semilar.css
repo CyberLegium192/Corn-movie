@@ -1,0 +1,119 @@
+.title-header{
+  font-size: 1.3rem;
+  text-transform: capitalize;
+  color: rgb(255,255,255,.9);
+  margin: 8px;
+  font-family: "Poppins", Sans-Serif;
+}
+.card-container{
+  width: 100%;
+  margin-top: 5px;
+  height: 240px;
+}
+.cardMovie{
+  width: 93%;
+  margin-left: 5px;
+  height: 220px;
+  overflow: hidden;
+  border-radius: 5px;
+  position: relative;
+  display: inline-block;
+  justify-content: center;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+.poster{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+.cardMovie:hover .title{
+  opacity: 1;
+}
+
+.title{
+  position: absolute;
+  transition: all .3s;
+  bottom: 0;
+  opacity: 0;
+  color: white;
+  width: 100%;
+  background: linear-gradient(transparent , rgb(22,22,22) , rgb(0,0,0));
+  height: 50px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 4px;
+}
+.title p{
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  font-size: 14px;
+  font-family: "Poppins", Sans-Serif;
+}
+
+
+/* STYEL CONTAINER SLIDE: ;*/
+.semilar-container{
+  font-family: "Poppins", Sans-Serif;
+  margin-top: 20px;
+}
+.semilar-wrapper{
+  position: relative;
+  background: rgb(33,33,33);
+  border-radius: 9px;
+  width: 90%;
+  padding: 25px 20px 2rem;
+  box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
+  margin: 0px auto;
+}
+.semilarTitle{
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+  font-weight: 500;
+  letter-spacing: 1.1px;
+  background: -webkit-linear-gradient(50deg, rgb(228,108,108), rgb(229,33,33));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.cardMoviesimilar{
+  width: 190px;
+  margin-left: 5px;
+  height: 190px;
+  overflow: hidden;
+  border-radius: 5px;
+  position: relative;
+  display: inline-block;
+  justify-content: center;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  cursor: pointer;
+}
+
+.title-semilar{
+  position: absolute;
+  transition: all .3s;
+  bottom: 0;
+  opacity: 1;
+  color: white;
+  width: 100%;
+  background: linear-gradient(transparent , rgb(22,22,22) , rgb(0,0,0));
+  height: 50px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 4px;
+}
+.title-semilar p{
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  font-size: 14px;
+  font-family: "Poppins", Sans-Serif;
+}

@@ -1,0 +1,87 @@
+.title-header2{
+  font-size: 1.3rem;
+  margin: 1.1rem 20px;
+  text-transform: capitalize;
+  letter-spacing: 1.1px;
+  background: -webkit-linear-gradient(50deg, rgb(228,108,108), rgb(229,33,33));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+  display: inline-block;
+}
+.card-container{
+  width: 100%;
+  margin-top: 5px;
+  height: 240px;
+}
+.cardMovie{
+  width: 93%;
+  margin-left: 5px;
+  height: 220px;
+  overflow: hidden;
+  border-radius: 8px;
+  position: relative;
+  display: inline-block;
+  justify-content: center;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  margin-top: -10px;
+}
+.poster{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+.cardMovie:hover .title{
+  opacity: 1;
+}
+
+.title{
+  position: absolute;
+  transition: all .3s;
+  bottom: 0;
+  opacity: 0;
+  color: white;
+  width: 100%;
+  background: linear-gradient(transparent , rgb(22,22,22) , rgb(0,0,0));
+  height: 50px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 4px;
+}
+.title p{
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  font-size: 14px;
+  font-family: "Poppins", Sans-Serif;
+}
+
+.title2{
+  position: absolute;
+  transition: all .3s;
+  color: white;
+  bottom:0;
+  left:0;
+  margin-left: -0px;
+  background: linear-gradient(transparent , rgb(22,22,22) , rgb(0,0,0));
+  height: 60px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 4px;
+}
+.title2 p{
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  font-size: 14px;
+  font-family: "Poppins", Sans-Serif;
+}

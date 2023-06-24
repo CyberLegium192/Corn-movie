@@ -1,0 +1,57 @@
+.cast-container{
+  margin-top: 20px;
+  font-family: 'Poppins', Sans-Serif;
+}
+.showAllCast{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.showAllCast a{
+  color: rgba(255,255,255,.7);
+  font-size: 13px;  
+  text-decoration: none;
+  text-transform: capitalize;
+  cursor: pointer;
+}
+.title-type{
+  background: -webkit-linear-gradient(50deg, rgb(228,108,108), rgb(229,33,33));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: "Poppins", Sans-Serif;
+  letter-spacing: 1.2px;
+  font-weight: 600;
+}
+.showAllCast h4{
+  font-size: 1.2rem;
+  background: -webkit-linear-gradient(50deg, rgb(228,108,108), rgb(229,33,33));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.cast-wrapper{
+  position: relative;
+  background: rgb(33,33,33);
+  border-radius: 9px;
+  width: 90%;
+  padding: 25px 27px 3rem;
+  box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
+  margin: 0px auto;
+}
+.cast-image-container{
+  /* background: blue; */
+  display: flex;
+  flex-wrap: wrap;
+  /* padding: 5px; */
+  justify-content: space-between;
+  gap: 7px;
+}
+.cast-image{
+  border: 1px solid white;
+  width: 65px;
+  height: 65px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center;
+}
+

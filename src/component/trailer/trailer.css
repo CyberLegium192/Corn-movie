@@ -1,0 +1,57 @@
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+.swiper-slide{
+  padding: 10px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+.swiper-slide .contianer-movie-header{
+  width: 100%;
+  height: 270px;
+  margin-top: -20px;
+  position: relative;
+  
+}
+.contianer-movie-header img{
+  width: 100%;
+}
+.title-slide{
+  position: absolute;
+  bottom: 0;
+  color: white;
+  height: 160px;
+  width: 100%;
+  padding: 60px 45px;
+  font-family: "poppins", Sans-Serif;
+  background: linear-gradient(transparent,rgb(22,22,22,.9) , rgb(0,0,0));
+  user-select: none;
+  pointer-events: none;
+}
+.nameSlide{
+  font-size: 1.1rem;
+  letter-spacing: 1.1px;
+  color: rgba(255,255,255,.9);
+}
+.slide-date{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 50%;
+  margin-top: 1rem;
+}
+.slide-date div{
+  font-size: .9rem;
+  color: rgba(255,255,255,.8);
+  font-weight: 400;
+  font-family: "Lato", Sans-Serif;
+}
+.slide-date span{
+  font-size: .9rem;
+  display: flex;
+  align-items: center;
+  gap: 7px;
+}

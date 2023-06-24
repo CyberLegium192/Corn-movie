@@ -1,0 +1,155 @@
+.search{
+  background: #000000;
+  height: 3.6rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1px 10px;
+  position: sticky;
+  top: 0;
+  z-index: 2000;
+}
+.back{
+  position: absolute;
+  font-size: 2rem;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  background: rgba(255,255,255,.8);
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 10px;
+  left: 10px;
+  text-decoration: none;
+}
+.search h3{
+  font-family: "Poppins", Sans-Serif;
+  text-transform: capitalize;  
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.search h3 i{
+ font-size: 1.5rem!important; 
+  color: rgb(223,178,37);
+}
+.search h3 span{
+  color: rgb(223,178,37);
+}
+
+.input_box{
+  font-family: "Poppins", Sans-Serif;
+  height: 80%;
+  display: flex;
+  align-items: center;
+  width: auto;
+  justify-content: end;
+  /* background: red; */
+  gap: 5px;
+}
+.input_box input, button{
+  height: 80%;
+}
+.input_box button{
+  width: 13%;
+  background: transparent;
+  border: 2px solid rgb(79,79,79);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  border-radius: 4px;
+  color: white;
+  cursor: pointer;
+  font-size: 1.2rem;
+}
+.input_box input{
+  border: 2px solid rgb(76,76,76);
+  border-radius: 6px;
+  background: transparent;
+  color: white;
+  width:60%;
+  padding-left: 10px;
+  font-size: .9rem;
+}
+
+
+.displayMovie{
+  width: 100%;
+  right: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+  background-color: rgb(43,43,43);
+  z-index: 2000;
+  position: fixed;
+  overflow: scroll;
+  transition: all 0.3s;
+}
+.displayMovie.active{
+  padding: 10px 10px;
+  height: 100vh;
+}
+.notFoundContainer{
+  display: none;
+  text-align: center;
+  text-transform: uppercase;
+}
+.notFound{
+}
+.notFoundContainer.active{
+  display: block;
+}
+
+
+
+
+
+
+
+
+.seacrhCard{
+  width: 100%;
+  height: 140px;
+  overflow: hidden;
+  border-radius: 5px;
+  position: relative;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  display: flex;
+  text-decoration: none;
+}
+.poster-contianer{
+  width: 23%;
+}
+.poster{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+.seacrhCard:hover .title{
+  opacity: 1;
+}
+.title2{
+  display: flex;
+  justify-content: center;
+  margin-left: 20px;
+  flex-direction: column;
+  gap: 40px 0px;
+}
+.title2 p{
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: rgba(255,255,255,.9);
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  font-size: 14px;
+  font-family: "Poppins", Sans-Serif;
+}
+.title2 span{
+  color: rgba(255,255,255,.9);
+}
